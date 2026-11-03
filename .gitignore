@@ -1,0 +1,22 @@
+# credentials - never commit
+token.txt
+
+# vendor documentation (large, copyrighted)
+dig_mtm.pdf
+dig_mtm.txt
+
+# scratch/test artifacts from development
+__pycache__/
+*.pyc
+poll*.csv
+poll*.log
+baseline.txt
+before.txt
+during.txt
+capture.pkl
+capture.log
+noisy_addrs.txt
+button_events*.csv
+press_events.csv
+*.jpeg
+*.jpg
