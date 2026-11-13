@@ -1,0 +1,890 @@
+{
+  "src/docs/diagrams/PCA_ex.py": {
+    "mtime": 1791544038.0,
+    "seen": 1793776670.1708753,
+    "ast_hash": "802fc27af55c89a359cba37d86681297",
+    "semantic_hash": "802fc27af55c89a359cba37d86681297"
+  },
+  "src/docs/run_with_log.sh": {
+    "mtime": 1788769843.0,
+    "seen": 1793776670.1708872,
+    "ast_hash": "f86eb9ac0d5eb611ca131dbbc7ef1820",
+    "semantic_hash": "f86eb9ac0d5eb611ca131dbbc7ef1820"
+  },
+  "src/paint_bot_description/config/paint_bot_controller.yaml": {
+    "mtime": 1788769804.0,
+    "seen": 1793776670.1708934,
+    "ast_hash": "673de0b56ae0dd49699742a8d434756b",
+    "semantic_hash": "673de0b56ae0dd49699742a8d434756b"
+  },
+  "src/paint_bot_description/launch/paint_bot_description.launch.py": {
+    "mtime": 1788769804.0,
+    "seen": 1793776670.1708984,
+    "ast_hash": "d58a14ada7abe114f30f87afcb3136f3",
+    "semantic_hash": "d58a14ada7abe114f30f87afcb3136f3"
+  },
+  "src/paint_bot_description/src/paint_demo_node.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.170903,
+    "ast_hash": "02cb54c9d1c0515fb5352f3e9e4c1ea5",
+    "semantic_hash": "02cb54c9d1c0515fb5352f3e9e4c1ea5"
+  },
+  "src/painting_robot_bringup/config/actuator_bridge_params.yaml": {
+    "mtime": 1792133163.0,
+    "seen": 1793776670.170907,
+    "ast_hash": "b36e503a71c777f05c07ac918a8f8540",
+    "semantic_hash": "b36e503a71c777f05c07ac918a8f8540"
+  },
+  "src/painting_robot_bringup/config/common_alignment_params.yaml": {
+    "mtime": 1792580231.0,
+    "seen": 1793776670.1709116,
+    "ast_hash": "7122ebd840a77f7a796a4456bb54a6f6",
+    "semantic_hash": "7122ebd840a77f7a796a4456bb54a6f6"
+  },
+  "src/painting_robot_bringup/config/ekf.yaml": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1709154,
+    "ast_hash": "cb3630894918387bc25440ef27ddcc40",
+    "semantic_hash": "cb3630894918387bc25440ef27ddcc40"
+  },
+  "src/painting_robot_bringup/config/env_monitoring_params.yaml": {
+    "mtime": 1792650658.0,
+    "seen": 1793776670.1709187,
+    "ast_hash": "05ddb1e528d76a50690aeaf05e3e3369",
+    "semantic_hash": "05ddb1e528d76a50690aeaf05e3e3369"
+  },
+  "src/painting_robot_bringup/config/gaz_ros2_ctl_use_sim.yaml": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1709223,
+    "ast_hash": "5c2409cbf9b8e507b91ecfe634339d16",
+    "semantic_hash": "5c2409cbf9b8e507b91ecfe634339d16"
+  },
+  "src/painting_robot_bringup/config/gazebo_params.yaml": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1709256,
+    "ast_hash": "46273b62c2327fc1376efedb49357101",
+    "semantic_hash": "46273b62c2327fc1376efedb49357101"
+  },
+  "src/painting_robot_bringup/config/my_controllers.yaml": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1709294,
+    "ast_hash": "121b3c7956837d145fe4d98494e28088",
+    "semantic_hash": "121b3c7956837d145fe4d98494e28088"
+  },
+  "src/painting_robot_bringup/config/pmc_io_map.yaml": {
+    "mtime": 1789566322.0,
+    "seen": 1793776670.1709332,
+    "ast_hash": "def30eaacd3f9e5c5fe47fbe0b9c2475",
+    "semantic_hash": "def30eaacd3f9e5c5fe47fbe0b9c2475"
+  },
+  "src/painting_robot_bringup/config/wall_detection_params.yaml": {
+    "mtime": 1792580231.0,
+    "seen": 1793776670.1709366,
+    "ast_hash": "4b7253ee9cfa14b9301b8a53d1361ef9",
+    "semantic_hash": "4b7253ee9cfa14b9301b8a53d1361ef9"
+  },
+  "src/painting_robot_bringup/config/wall_motion_params.yaml": {
+    "mtime": 1792652864.0,
+    "seen": 1793776670.17094,
+    "ast_hash": "4e10255dea5187d75b578f12ef8f01f9",
+    "semantic_hash": "4e10255dea5187d75b578f12ef8f01f9"
+  },
+  "src/painting_robot_bringup/launch/corner_bringup.launch.py": {
+    "mtime": 1792745838.6081772,
+    "seen": 1793776670.1709433,
+    "ast_hash": "4a8730a5b5e92c70ee42642c32e8037b",
+    "semantic_hash": "4a8730a5b5e92c70ee42642c32e8037b"
+  },
+  "src/painting_robot_bringup/launch/old launch files/alignment_test_real_bot.launch.py": {
+    "mtime": 1792580231.0,
+    "seen": 1793776670.170948,
+    "ast_hash": "b67f8b2d0aaa3884ef3574da014cc572",
+    "semantic_hash": "b67f8b2d0aaa3884ef3574da014cc572"
+  },
+  "src/painting_robot_bringup/launch/paintbot_sim_bringup.launch.py": {
+    "mtime": 1791962658.0,
+    "seen": 1793776670.170955,
+    "ast_hash": "2f7eb11c100e1581301fe8fcccc13672",
+    "semantic_hash": "2f7eb11c100e1581301fe8fcccc13672"
+  },
+  "src/painting_robot_bringup/launch/real_bot_bench.launch.py": {
+    "mtime": 1792584173.0,
+    "seen": 1793776670.1709597,
+    "ast_hash": "04a678e482d0f4a375fb46891d64b1ab",
+    "semantic_hash": "04a678e482d0f4a375fb46891d64b1ab"
+  },
+  "src/painting_robot_bringup/launch/rsp.launch.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1709626,
+    "ast_hash": "b69628164b538eb80fdc269fdad0abc9",
+    "semantic_hash": "b69628164b538eb80fdc269fdad0abc9"
+  },
+  "src/painting_robot_bringup/launch/stub_bringup.launch.py": {
+    "mtime": 1792580231.0,
+    "seen": 1793776670.170966,
+    "ast_hash": "355076b0d51522c6906774d3fa9c289d",
+    "semantic_hash": "355076b0d51522c6906774d3fa9c289d"
+  },
+  "src/painting_robot_fsm/painting_robot_fsm/__init__.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1709728,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "src/painting_robot_fsm/painting_robot_fsm/motion_queue.py": {
+    "mtime": 1792669626.0,
+    "seen": 1793776670.1709893,
+    "ast_hash": "a01c74371ece4f0e3eacf1a1e9bba091",
+    "semantic_hash": "a01c74371ece4f0e3eacf1a1e9bba091"
+  },
+  "src/painting_robot_fsm/painting_robot_fsm/state_machine_node.py": {
+    "mtime": 1793345280.931256,
+    "seen": 1793776670.170993,
+    "ast_hash": "09b8661a67d5e3cd2e37e1e056aae529",
+    "semantic_hash": "09b8661a67d5e3cd2e37e1e056aae529"
+  },
+  "src/painting_robot_fsm/painting_robot_fsm/states.py": {
+    "mtime": 1793345280.931256,
+    "seen": 1793776670.1709986,
+    "ast_hash": "62ab62ee4c3600faa8f7057cdf289ad1",
+    "semantic_hash": "62ab62ee4c3600faa8f7057cdf289ad1"
+  },
+  "src/painting_robot_fsm/setup.py": {
+    "mtime": 1789475572.0,
+    "seen": 1793776670.1710026,
+    "ast_hash": "72dc49d4421b850abd89e69d3f4dcd82",
+    "semantic_hash": "72dc49d4421b850abd89e69d3f4dcd82"
+  },
+  "src/painting_robot_fsm/test/test_copyright.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1710083,
+    "ast_hash": "4996344e5b6b7ac0c99a267f121398f4",
+    "semantic_hash": "4996344e5b6b7ac0c99a267f121398f4"
+  },
+  "src/painting_robot_fsm/test/test_flake8.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1710117,
+    "ast_hash": "aa129cddddd383a922ed54000fb385e5",
+    "semantic_hash": "aa129cddddd383a922ed54000fb385e5"
+  },
+  "src/painting_robot_fsm/test/test_pep257.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.171015,
+    "ast_hash": "1a5086842153d5f68611ba9f8cb7e443",
+    "semantic_hash": "1a5086842153d5f68611ba9f8cb7e443"
+  },
+  "src/painting_robot_hmi/painting_robot_hmi/__init__.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1710212,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "src/painting_robot_hmi/painting_robot_hmi/hmi_keyboard_node.py": {
+    "mtime": 1792649385.0,
+    "seen": 1793776670.1710265,
+    "ast_hash": "3824b47700b64436a2c1324dee1321f9",
+    "semantic_hash": "3824b47700b64436a2c1324dee1321f9"
+  },
+  "src/painting_robot_hmi/painting_robot_hmi/joy_teleop_node.py": {
+    "mtime": 1792649385.0,
+    "seen": 1793776670.171032,
+    "ast_hash": "07285d040e4358ebb2606bb7a5d257f7",
+    "semantic_hash": "07285d040e4358ebb2606bb7a5d257f7"
+  },
+  "src/painting_robot_hmi/painting_robot_hmi/logging_node.py": {
+    "mtime": 1793172567.4296973,
+    "seen": 1793776670.1710353,
+    "ast_hash": "abe667c4c8a79f28e8e4d69ef6bf94e2",
+    "semantic_hash": "abe667c4c8a79f28e8e4d69ef6bf94e2"
+  },
+  "src/painting_robot_hmi/setup.py": {
+    "mtime": 1788769843.0,
+    "seen": 1793776670.1710384,
+    "ast_hash": "9b98528b02f132c001d5def1440fdbd1",
+    "semantic_hash": "9b98528b02f132c001d5def1440fdbd1"
+  },
+  "src/painting_robot_hmi/test/test_copyright.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1710417,
+    "ast_hash": "4996344e5b6b7ac0c99a267f121398f4",
+    "semantic_hash": "4996344e5b6b7ac0c99a267f121398f4"
+  },
+  "src/painting_robot_hmi/test/test_flake8.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1710472,
+    "ast_hash": "aa129cddddd383a922ed54000fb385e5",
+    "semantic_hash": "aa129cddddd383a922ed54000fb385e5"
+  },
+  "src/painting_robot_hmi/test/test_pep257.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.171052,
+    "ast_hash": "1a5086842153d5f68611ba9f8cb7e443",
+    "semantic_hash": "1a5086842153d5f68611ba9f8cb7e443"
+  },
+  "src/painting_robot_mcu/painting_robot_mcu/__init__.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1710591,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "src/painting_robot_mcu/painting_robot_mcu/bms_node.py": {
+    "mtime": 1788769843.0,
+    "seen": 1793776670.171063,
+    "ast_hash": "aab82c26cb553400cbf7aeceff8d4350",
+    "semantic_hash": "aab82c26cb553400cbf7aeceff8d4350"
+  },
+  "src/painting_robot_mcu/painting_robot_mcu/heartbeat_node.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1710668,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "src/painting_robot_mcu/painting_robot_mcu/kvms_bms_driver.py": {
+    "mtime": 1792133163.0,
+    "seen": 1793776670.171071,
+    "ast_hash": "ca5df62a349cd1d4771b364b8df4e179",
+    "semantic_hash": "ca5df62a349cd1d4771b364b8df4e179"
+  },
+  "src/painting_robot_mcu/painting_robot_mcu/pmc_io_map.py": {
+    "mtime": 1788769843.0,
+    "seen": 1793776670.1710742,
+    "ast_hash": "a0ecc618a94a323812a5d42f23d31f6f",
+    "semantic_hash": "a0ecc618a94a323812a5d42f23d31f6f"
+  },
+  "src/painting_robot_mcu/painting_robot_mcu/portenta_bridge_node.py": {
+    "mtime": 1791197652.0,
+    "seen": 1793776670.1710775,
+    "ast_hash": "c3967dbbf5cbeed5a4e86e33796b8f32",
+    "semantic_hash": "c3967dbbf5cbeed5a4e86e33796b8f32"
+  },
+  "src/painting_robot_mcu/painting_robot_mcu/safety_monitor_node.py": {
+    "mtime": 1792396430.0,
+    "seen": 1793776670.171084,
+    "ast_hash": "d382c6243106e7c4938f5f486525270f",
+    "semantic_hash": "d382c6243106e7c4938f5f486525270f"
+  },
+  "src/painting_robot_mcu/setup.py": {
+    "mtime": 1788769843.0,
+    "seen": 1793776670.171087,
+    "ast_hash": "2006a8e584ddde5ba33816755427d45a",
+    "semantic_hash": "2006a8e584ddde5ba33816755427d45a"
+  },
+  "src/painting_robot_mcu/test/test_copyright.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.171092,
+    "ast_hash": "4996344e5b6b7ac0c99a267f121398f4",
+    "semantic_hash": "4996344e5b6b7ac0c99a267f121398f4"
+  },
+  "src/painting_robot_mcu/test/test_flake8.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1710956,
+    "ast_hash": "aa129cddddd383a922ed54000fb385e5",
+    "semantic_hash": "aa129cddddd383a922ed54000fb385e5"
+  },
+  "src/painting_robot_mcu/test/test_pep257.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1710987,
+    "ast_hash": "1a5086842153d5f68611ba9f8cb7e443",
+    "semantic_hash": "1a5086842153d5f68611ba9f8cb7e443"
+  },
+  "src/painting_robot_navigation/painting_robot_navigation/__init__.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1711028,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "src/painting_robot_navigation/painting_robot_navigation/wall_detection_node.py": {
+    "mtime": 1792649385.0,
+    "seen": 1793776670.1711063,
+    "ast_hash": "3dbb16afa8907023de5d285bcf2d423e",
+    "semantic_hash": "3dbb16afa8907023de5d285bcf2d423e"
+  },
+  "src/painting_robot_navigation/painting_robot_navigation/wall_detection_node_heavy.py": {
+    "mtime": 1792649385.0,
+    "seen": 1793776670.17111,
+    "ast_hash": "050f95bdd62aa9be79fb986bf4580cb9",
+    "semantic_hash": "050f95bdd62aa9be79fb986bf4580cb9"
+  },
+  "src/painting_robot_navigation/painting_robot_navigation/wall_motion_node.py": {
+    "mtime": 1793016101.972101,
+    "seen": 1793776670.1711137,
+    "ast_hash": "50d9b69e39773439854a5938b66fd4d5",
+    "semantic_hash": "50d9b69e39773439854a5938b66fd4d5"
+  },
+  "src/painting_robot_navigation/setup.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1711173,
+    "ast_hash": "1fceb0b53beafa9fd6b5e1801a68ed81",
+    "semantic_hash": "1fceb0b53beafa9fd6b5e1801a68ed81"
+  },
+  "src/painting_robot_navigation/test/test_copyright.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1711206,
+    "ast_hash": "4996344e5b6b7ac0c99a267f121398f4",
+    "semantic_hash": "4996344e5b6b7ac0c99a267f121398f4"
+  },
+  "src/painting_robot_navigation/test/test_flake8.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1711242,
+    "ast_hash": "aa129cddddd383a922ed54000fb385e5",
+    "semantic_hash": "aa129cddddd383a922ed54000fb385e5"
+  },
+  "src/painting_robot_navigation/test/test_pep257.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1711278,
+    "ast_hash": "1a5086842153d5f68611ba9f8cb7e443",
+    "semantic_hash": "1a5086842153d5f68611ba9f8cb7e443"
+  },
+  "src/painting_robot_painting/painting_robot_painting/__init__.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.171157,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "src/painting_robot_painting/painting_robot_painting/actuator_bridge_node.py": {
+    "mtime": 1792745838.6081772,
+    "seen": 1793776670.1711602,
+    "ast_hash": "2a1f8189081c029e1e6ea65a8f12ae59",
+    "semantic_hash": "2a1f8189081c029e1e6ea65a8f12ae59"
+  },
+  "src/painting_robot_painting/painting_robot_painting/leadshine_driver.py": {
+    "mtime": 1788769843.0,
+    "seen": 1793776670.1711636,
+    "ast_hash": "ccf53b86c16bb486339ddf7da7c3fded",
+    "semantic_hash": "ccf53b86c16bb486339ddf7da7c3fded"
+  },
+  "src/painting_robot_painting/painting_robot_painting/paint_executor_node copy.py": {
+    "mtime": 1792566692.0,
+    "seen": 1793776670.1711674,
+    "ast_hash": "340f70236218d566c1c50b768c5f075c",
+    "semantic_hash": "340f70236218d566c1c50b768c5f075c"
+  },
+  "src/painting_robot_painting/painting_robot_painting/paint_executor_node.py": {
+    "mtime": 1792566713.0,
+    "seen": 1793776670.1711712,
+    "ast_hash": "877d3ed367e1dca41b572fbb9a51ad95",
+    "semantic_hash": "877d3ed367e1dca41b572fbb9a51ad95"
+  },
+  "src/painting_robot_painting/painting_robot_painting/paint_executor_node_neu.py": {
+    "mtime": 1792565559.0,
+    "seen": 1793776670.1711748,
+    "ast_hash": "877d3ed367e1dca41b572fbb9a51ad95",
+    "semantic_hash": "877d3ed367e1dca41b572fbb9a51ad95"
+  },
+  "src/painting_robot_painting/painting_robot_painting/paint_planner_node.py": {
+    "mtime": 1788769843.0,
+    "seen": 1793776670.171178,
+    "ast_hash": "bdce7efee0e4096ad6cbe0d31a8245f2",
+    "semantic_hash": "bdce7efee0e4096ad6cbe0d31a8245f2"
+  },
+  "src/painting_robot_painting/painting_robot_painting/wrist_driver.py": {
+    "mtime": 1791283515.0,
+    "seen": 1793776670.1711817,
+    "ast_hash": "a119b3a7c83b2d6bf3e62682ac281242",
+    "semantic_hash": "a119b3a7c83b2d6bf3e62682ac281242"
+  },
+  "src/painting_robot_painting/setup.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1711848,
+    "ast_hash": "95a9403a0d4741e606bb95cf88a7da8b",
+    "semantic_hash": "95a9403a0d4741e606bb95cf88a7da8b"
+  },
+  "src/painting_robot_painting/test/test_copyright.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.171188,
+    "ast_hash": "4996344e5b6b7ac0c99a267f121398f4",
+    "semantic_hash": "4996344e5b6b7ac0c99a267f121398f4"
+  },
+  "src/painting_robot_painting/test/test_flake8.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1711915,
+    "ast_hash": "aa129cddddd383a922ed54000fb385e5",
+    "semantic_hash": "aa129cddddd383a922ed54000fb385e5"
+  },
+  "src/painting_robot_painting/test/test_pep257.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1711946,
+    "ast_hash": "1a5086842153d5f68611ba9f8cb7e443",
+    "semantic_hash": "1a5086842153d5f68611ba9f8cb7e443"
+  },
+  "src/painting_robot_perception/painting_robot_perception/__init__.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.171198,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "src/painting_robot_perception/painting_robot_perception/cliff_detection_node.py": {
+    "mtime": 1788769843.0,
+    "seen": 1793776670.1712012,
+    "ast_hash": "039801921aa2ad5a62868041a6c9d060",
+    "semantic_hash": "039801921aa2ad5a62868041a6c9d060"
+  },
+  "src/painting_robot_perception/painting_robot_perception/collision_warn_node.py": {
+    "mtime": 1792133163.0,
+    "seen": 1793776670.1712043,
+    "ast_hash": "3e3adb80f6dc2e929a1bda7fba96d87c",
+    "semantic_hash": "3e3adb80f6dc2e929a1bda7fba96d87c"
+  },
+  "src/painting_robot_perception/painting_robot_perception/env_monitoring_v2.py": {
+    "mtime": 1792919306.1534612,
+    "seen": 1793776670.1712077,
+    "ast_hash": "9e3965f6e799bf2e6232d979c0278efc",
+    "semantic_hash": "9e3965f6e799bf2e6232d979c0278efc"
+  },
+  "src/painting_robot_perception/painting_robot_perception/geometry_utils.py": {
+    "mtime": 1792649385.0,
+    "seen": 1793776670.171211,
+    "ast_hash": "0c907b39b9c484f6a777f9e86537b6ac",
+    "semantic_hash": "0c907b39b9c484f6a777f9e86537b6ac"
+  },
+  "src/painting_robot_perception/painting_robot_perception/lidar_scan_capture_node.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1712146,
+    "ast_hash": "9284f999f881b77aced44b135c5e8edf",
+    "semantic_hash": "9284f999f881b77aced44b135c5e8edf"
+  },
+  "src/painting_robot_perception/painting_robot_perception/maneuver_planner.py": {
+    "mtime": 1792649385.0,
+    "seen": 1793776670.171218,
+    "ast_hash": "a37c7ef18659a3b0fdf1b6cd8c60527f",
+    "semantic_hash": "a37c7ef18659a3b0fdf1b6cd8c60527f"
+  },
+  "src/painting_robot_perception/painting_robot_perception/ultrasound_node.py": {
+    "mtime": 1791544038.0,
+    "seen": 1793776670.1712215,
+    "ast_hash": "5f23d46d69650458884d9830181af3be",
+    "semantic_hash": "5f23d46d69650458884d9830181af3be"
+  },
+  "src/painting_robot_perception/setup.py": {
+    "mtime": 1792133163.0,
+    "seen": 1793776670.1712248,
+    "ast_hash": "dd412c6bde8a91691d808370221ccafe",
+    "semantic_hash": "dd412c6bde8a91691d808370221ccafe"
+  },
+  "src/painting_robot_perception/test/test_copyright.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1712282,
+    "ast_hash": "4996344e5b6b7ac0c99a267f121398f4",
+    "semantic_hash": "4996344e5b6b7ac0c99a267f121398f4"
+  },
+  "src/painting_robot_perception/test/test_flake8.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1712315,
+    "ast_hash": "aa129cddddd383a922ed54000fb385e5",
+    "semantic_hash": "aa129cddddd383a922ed54000fb385e5"
+  },
+  "src/painting_robot_perception/test/test_pep257.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1712425,
+    "ast_hash": "1a5086842153d5f68611ba9f8cb7e443",
+    "semantic_hash": "1a5086842153d5f68611ba9f8cb7e443"
+  },
+  "src/test/Motor_test/leadshine_driver.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.171246,
+    "ast_hash": "b6b500e3b49f87a7fdfbcaef5c2daf0c",
+    "semantic_hash": "b6b500e3b49f87a7fdfbcaef5c2daf0c"
+  },
+  "src/test/Motor_test/leadshine_driver_rpi.py": {
+    "mtime": 1788769843.0,
+    "seen": 1793776670.1712496,
+    "ast_hash": "5e9f1e71bc5c5bda5762128029d54fd2",
+    "semantic_hash": "5e9f1e71bc5c5bda5762128029d54fd2"
+  },
+  "src/test/Motor_test/leadshine_pos_mode (1).py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.171253,
+    "ast_hash": "887aedd0b7988024613474c91d9f5845",
+    "semantic_hash": "887aedd0b7988024613474c91d9f5845"
+  },
+  "src/test/Motor_test/send_io.py": {
+    "mtime": 1788769843.0,
+    "seen": 1793776670.171256,
+    "ast_hash": "cef93e36c970b8ac7889f74757c22719",
+    "semantic_hash": "cef93e36c970b8ac7889f74757c22719"
+  },
+  "src/test/Motor_test/tcp_motor_test.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1712706,
+    "ast_hash": "9168b5a7bf0a9f6e003e2ffdeaf07c6a",
+    "semantic_hash": "9168b5a7bf0a9f6e003e2ffdeaf07c6a"
+  },
+  "src/test/Motor_test/test.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1712744,
+    "ast_hash": "928f903b12fe5bdf9346ae1fee4d5ca5",
+    "semantic_hash": "928f903b12fe5bdf9346ae1fee4d5ca5"
+  },
+  "src/test/Motor_test/wrist_test.py": {
+    "mtime": 1791544038.0,
+    "seen": 1793776670.1712823,
+    "ast_hash": "aa98515aa19b274822b5660bb2cf79b2",
+    "semantic_hash": "aa98515aa19b274822b5660bb2cf79b2"
+  },
+  "src/test/capture_scans.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1712852,
+    "ast_hash": "0d25ae231b3f80772d245c35038dc929",
+    "semantic_hash": "0d25ae231b3f80772d245c35038dc929"
+  },
+  "src/test/corner_detect/arc_test_node.py": {
+    "mtime": 1792136448.0,
+    "seen": 1793776670.1712897,
+    "ast_hash": "c49c7267ab1f1ea06f86aed671c9484f",
+    "semantic_hash": "c49c7267ab1f1ea06f86aed671c9484f"
+  },
+  "src/test/corner_detect/corner_event.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.171293,
+    "ast_hash": "4f2e292a7a5cee9f192f696f68878d5e",
+    "semantic_hash": "4f2e292a7a5cee9f192f696f68878d5e"
+  },
+  "src/test/corner_detect/corner_event_pipeline.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.171296,
+    "ast_hash": "7747d1c19de76685df3f4977c57a05dd",
+    "semantic_hash": "7747d1c19de76685df3f4977c57a05dd"
+  },
+  "src/test/corner_detect/corner_event_pipeline_allTest.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1713004,
+    "ast_hash": "318ce00a334d50fa653444134ce53bbe",
+    "semantic_hash": "318ce00a334d50fa653444134ce53bbe"
+  },
+  "src/test/corner_detect/corner_geometry_utils.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1713035,
+    "ast_hash": "4505c61cdc3643e30ba44919321a36b3",
+    "semantic_hash": "4505c61cdc3643e30ba44919321a36b3"
+  },
+  "src/test/corner_detect/corner_spray.py": {
+    "mtime": 1788769843.0,
+    "seen": 1793776670.171307,
+    "ast_hash": "128107601f186e68cfe0fa5918d8dc95",
+    "semantic_hash": "128107601f186e68cfe0fa5918d8dc95"
+  },
+  "src/test/corner_detect/corner_spray_external.py": {
+    "mtime": 1788769843.0,
+    "seen": 1793776670.1713104,
+    "ast_hash": "1a5b84050f087d1f6181e45de40b1523",
+    "semantic_hash": "1a5b84050f087d1f6181e45de40b1523"
+  },
+  "src/test/corner_detect/fake_data.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.1713138,
+    "ast_hash": "3a9210569ef75dc06c94e44f23d61618",
+    "semantic_hash": "3a9210569ef75dc06c94e44f23d61618"
+  },
+  "src/test/corner_detect/geometry_utils.py": {
+    "mtime": 1788769843.0,
+    "seen": 1793776670.1713183,
+    "ast_hash": "2daaab6ed3e96275fc5e6e7634fb3098",
+    "semantic_hash": "2daaab6ed3e96275fc5e6e7634fb3098"
+  },
+  "src/test/misc/90Deg_odom_test.py": {
+    "mtime": 1792136185.0,
+    "seen": 1793776670.1713216,
+    "ast_hash": "bcb8bb8dab370c21450eb648700e0eff",
+    "semantic_hash": "bcb8bb8dab370c21450eb648700e0eff"
+  },
+  "src/test/misc/arc_90_test.py": {
+    "mtime": 1792137562.0,
+    "seen": 1793776670.1713247,
+    "ast_hash": "92f494dee471619b753b50ebf01624c0",
+    "semantic_hash": "92f494dee471619b753b50ebf01624c0"
+  },
+  "src/test/misc/capture_cliff_scans.py": {
+    "mtime": 1788769843.0,
+    "seen": 1793776670.1713278,
+    "ast_hash": "7ca4d6e79d07bae54d647f4d2d5be89b",
+    "semantic_hash": "7ca4d6e79d07bae54d647f4d2d5be89b"
+  },
+  "src/test/misc/odom_test.py": {
+    "mtime": 1788769843.0,
+    "seen": 1793776670.1713312,
+    "ast_hash": "3c4fc7599c2c4a0b6dffe97104f4b885",
+    "semantic_hash": "3c4fc7599c2c4a0b6dffe97104f4b885"
+  },
+  "src/test/misc/safety_logic_harness.py": {
+    "mtime": 1788769843.0,
+    "seen": 1793776670.1713345,
+    "ast_hash": "d76bde3953789e14796bd8de72d49faf",
+    "semantic_hash": "d76bde3953789e14796bd8de72d49faf"
+  },
+  "src/test/misc/stanley_sim.py": {
+    "mtime": 1789475572.0,
+    "seen": 1793776670.1713388,
+    "ast_hash": "68a1c19e85b55cdf8ac07df11855b753",
+    "semantic_hash": "68a1c19e85b55cdf8ac07df11855b753"
+  },
+  "src/test/misc/stanley_sim_uniform.py": {
+    "mtime": 1791544038.0,
+    "seen": 1793776670.1713424,
+    "ast_hash": "8ed11b02dccbc08f3332561e234e121a",
+    "semantic_hash": "8ed11b02dccbc08f3332561e234e121a"
+  },
+  "src/test/misc/ultrasound.py": {
+    "mtime": 1788769843.0,
+    "seen": 1793776670.1713462,
+    "ast_hash": "9bd11762f5b981226a2d48d2e83df39e",
+    "semantic_hash": "9bd11762f5b981226a2d48d2e83df39e"
+  },
+  "src/test/painted_area_report.py": {
+    "mtime": 1793100391.9706526,
+    "seen": 1793776670.1713495,
+    "ast_hash": "48beb3bb1661fcb60af599b0fdaf3340",
+    "semantic_hash": "48beb3bb1661fcb60af599b0fdaf3340"
+  },
+  "src/test/rotation_test.py": {
+    "mtime": 1793004228.5256498,
+    "seen": 1793776670.1713526,
+    "ast_hash": "a704c47c91023de197660940b9bd7a52",
+    "semantic_hash": "a704c47c91023de197660940b9bd7a52"
+  },
+  "src/test/single_scan_cap.py": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.171356,
+    "ast_hash": "fca1f9c0e1db661adf50e1f7d9b79e26",
+    "semantic_hash": "fca1f9c0e1db661adf50e1f7d9b79e26"
+  },
+  "src/test/straight_drive_test.py": {
+    "mtime": 1793000205.8226583,
+    "seen": 1793776670.171359,
+    "ast_hash": "cd1d5a75c8da8e3aad65830339fbd578",
+    "semantic_hash": "cd1d5a75c8da8e3aad65830339fbd578"
+  },
+  "src/README.md": {
+    "mtime": 1793274065.5649931,
+    "seen": 1793776670.1713622,
+    "ast_hash": "469908a2a11fdef521323556a4407b26",
+    "semantic_hash": "469908a2a11fdef521323556a4407b26"
+  },
+  "src/docs/SESSION_HANDOFF.md": {
+    "mtime": 1793096290.438197,
+    "seen": 1793776670.1713653,
+    "ast_hash": "6d9d78e3ad95adcf44975bd9935361ba",
+    "semantic_hash": "6d9d78e3ad95adcf44975bd9935361ba"
+  },
+  "src/docs/SESSION_HANDOFF_2026-10-27.md": {
+    "mtime": 1793096290.4321957,
+    "seen": 1793776670.1713693,
+    "ast_hash": "20f5a005cb73e35633d31f47b76fbfc1",
+    "semantic_hash": "20f5a005cb73e35633d31f47b76fbfc1"
+  },
+  "src/docs/SESSION_HANDOFF_2026-10-30.md": {
+    "mtime": 1793360892.7759748,
+    "seen": 1793776670.1713736,
+    "ast_hash": "95de258f43e16947934a7a36e9471d06",
+    "semantic_hash": "95de258f43e16947934a7a36e9471d06"
+  },
+  "src/docs/bugs_n_fixes_Gaja.txt": {
+    "mtime": 1791544038.0,
+    "seen": 1793776670.1713772,
+    "ast_hash": "71c22864a4c1d1d7b727451350ca7b08",
+    "semantic_hash": "71c22864a4c1d1d7b727451350ca7b08"
+  },
+  "src/docs/bump_room_fault_report.md": {
+    "mtime": 1792887159.7849085,
+    "seen": 1793776670.1713803,
+    "ast_hash": "2b44510a25c2a319981533d196cca9bd",
+    "semantic_hash": "2b44510a25c2a319981533d196cca9bd"
+  },
+  "src/docs/painting_robot_ws.txt": {
+    "mtime": 1789475572.0,
+    "seen": 1793776670.1713836,
+    "ast_hash": "d81b5461c1e3af1a712eae64de248604",
+    "semantic_hash": "d81b5461c1e3af1a712eae64de248604"
+  },
+  "src/docs/painting_robot_ws_Nyx.txt": {
+    "mtime": 1791183996.0,
+    "seen": 1793776670.1713867,
+    "ast_hash": "6c56877262e964d9bde3eb907be96a5a",
+    "semantic_hash": "6c56877262e964d9bde3eb907be96a5a"
+  },
+  "src/docs/production_report_bump_room.md": {
+    "mtime": 1792910525.4288728,
+    "seen": 1793776670.17139,
+    "ast_hash": "8c1e9a5705da684a45fab20afe2ff67e",
+    "semantic_hash": "8c1e9a5705da684a45fab20afe2ff67e"
+  },
+  "src/docs/sbc_pmc_setup_instructions.txt": {
+    "mtime": 1788769843.0,
+    "seen": 1793776670.171393,
+    "ast_hash": "d35de371ef6ea9c4779df00b05be1750",
+    "semantic_hash": "d35de371ef6ea9c4779df00b05be1750"
+  },
+  "src/docs/system_md_instructions.txt": {
+    "mtime": 1791544038.0,
+    "seen": 1793776670.171396,
+    "ast_hash": "2660095ce7bef24df3411b5ac2007c94",
+    "semantic_hash": "2660095ce7bef24df3411b5ac2007c94"
+  },
+  "src/paint_bot_description/CMakeLists.txt": {
+    "mtime": 1788769843.0,
+    "seen": 1793776670.1714005,
+    "ast_hash": "32104cdee2b40eab7fbfed028a08330d",
+    "semantic_hash": "32104cdee2b40eab7fbfed028a08330d"
+  },
+  "src/painting_robot_bringup/CMakeLists.txt": {
+    "mtime": 1788769806.0,
+    "seen": 1793776670.171459,
+    "ast_hash": "8230d56c9f1a754d5bb0068c05c7c7df",
+    "semantic_hash": "8230d56c9f1a754d5bb0068c05c7c7df"
+  },
+  "src/painting_robot_msgs/CMakeLists.txt": {
+    "mtime": 1788769843.0,
+    "seen": 1793776670.171462,
+    "ast_hash": "51477468291f534a9f26a57dc1f8f5c1",
+    "semantic_hash": "51477468291f534a9f26a57dc1f8f5c1"
+  },
+  "src/sam_robot_description/CMakeLists.txt": {
+    "mtime": 1788769843.0,
+    "seen": 1793776670.1714654,
+    "ast_hash": "cbacf6c38cbc265a0e370bdc78811eab",
+    "semantic_hash": "cbacf6c38cbc265a0e370bdc78811eab"
+  },
+  "src/docs/bump_1m_sequence.png": {
+    "mtime": 1792758347.6698933,
+    "seen": 1793776670.1714764,
+    "ast_hash": "bf815469a20aef542c5a9211aacd19e1",
+    "semantic_hash": "bf815469a20aef542c5a9211aacd19e1"
+  },
+  "src/docs/bump_depth_circles.png": {
+    "mtime": 1792757761.392305,
+    "seen": 1793776670.1714795,
+    "ast_hash": "9085412628ba865f886a50de58b7983b",
+    "semantic_hash": "9085412628ba865f886a50de58b7983b"
+  },
+  "src/docs/bump_depth_limit.png": {
+    "mtime": 1792757249.1654434,
+    "seen": 1793776670.1714826,
+    "ast_hash": "c2d89545f927f2f65fb5a5d069f3d78b",
+    "semantic_hash": "c2d89545f927f2f65fb5a5d069f3d78b"
+  },
+  "src/docs/bump_room_10x8_layout.png": {
+    "mtime": 1792886803.1678593,
+    "seen": 1793776670.171486,
+    "ast_hash": "82019700496e4dc128aec5b7bc47a04d",
+    "semantic_hash": "82019700496e4dc128aec5b7bc47a04d"
+  },
+  "src/docs/bump_room_paint_quality.png": {
+    "mtime": 1792912505.4569833,
+    "seen": 1793776670.1714895,
+    "ast_hash": "59ac81a7b638359c311143a54513fb75",
+    "semantic_hash": "59ac81a7b638359c311143a54513fb75"
+  },
+  "src/docs/bump_room_strokes.png": {
+    "mtime": 1792910491.664345,
+    "seen": 1793776670.171494,
+    "ast_hash": "901cd0c45092fa4f182c3fe3d5f92e71",
+    "semantic_hash": "901cd0c45092fa4f182c3fe3d5f92e71"
+  },
+  "src/docs/bump_room_strokes_pose.png": {
+    "mtime": 1792917963.8602731,
+    "seen": 1793776670.1714969,
+    "ast_hash": "b5f1f8aabae4eeacef7f114143922a19",
+    "semantic_hash": "b5f1f8aabae4eeacef7f114143922a19"
+  },
+  "src/docs/diagrams/Gemini_Generated_Image_cv2g2fcv2g2fcv2g.png": {
+    "mtime": 1791544038.0,
+    "seen": 1793776670.1715002,
+    "ast_hash": "64b41b6f83ee4ced71a45b8e18d94c43",
+    "semantic_hash": "64b41b6f83ee4ced71a45b8e18d94c43"
+  },
+  "src/docs/diagrams/PCA_fitex.png": {
+    "mtime": 1791544038.0,
+    "seen": 1793776670.1715033,
+    "ast_hash": "29ff24d86cef209c1281e1447969ca01",
+    "semantic_hash": "29ff24d86cef209c1281e1447969ca01"
+  },
+  "src/docs/diagrams/Wall Painting Execution Flow-2026-07-07-061353.png": {
+    "mtime": 1791544038.0,
+    "seen": 1793776670.1715066,
+    "ast_hash": "81c258477f816abedddd3f39de9d9690",
+    "semantic_hash": "81c258477f816abedddd3f39de9d9690"
+  },
+  "src/docs/diagrams/external_turn.png": {
+    "mtime": 1792133163.0,
+    "seen": 1793776670.1715097,
+    "ast_hash": "24503c44845849e4bef81aea949ab0c8",
+    "semantic_hash": "24503c44845849e4bef81aea949ab0c8"
+  },
+  "src/docs/diagrams/mermaid-diagram (2).png": {
+    "mtime": 1791544038.0,
+    "seen": 1793776670.1715128,
+    "ast_hash": "d8330c0a0676afa98303defc43ca9c29",
+    "semantic_hash": "d8330c0a0676afa98303defc43ca9c29"
+  },
+  "src/docs/diagrams/paintbott_P1.png": {
+    "mtime": 1791544038.0,
+    "seen": 1793776670.1715162,
+    "ast_hash": "dcac9eda9231d715863efe921aa6f772",
+    "semantic_hash": "dcac9eda9231d715863efe921aa6f772"
+  },
+  "src/docs/diagrams/robot_fig.png": {
+    "mtime": 1791544038.0,
+    "seen": 1793776670.1715205,
+    "ast_hash": "e23e0808249f8831470277bde65c0053",
+    "semantic_hash": "e23e0808249f8831470277bde65c0053"
+  },
+  "src/docs/diagrams/rosgraph.svg": {
+    "mtime": 1791544038.0,
+    "seen": 1793776670.1715238,
+    "ast_hash": "01c94eb29fb74031486156ef850f7a6f",
+    "semantic_hash": "01c94eb29fb74031486156ef850f7a6f"
+  },
+  "src/docs/dist_check_skip_position.png": {
+    "mtime": 1792891745.0459447,
+    "seen": 1793776670.1715271,
+    "ast_hash": "5cba01902d62302f6a46cd08f09f8525",
+    "semantic_hash": "5cba01902d62302f6a46cd08f09f8525"
+  },
+  "src/docs/internal_defer_guard.png": {
+    "mtime": 1792891991.3405876,
+    "seen": 1793776670.1715305,
+    "ast_hash": "07e58a02568380870f3c7e95a94bec9f",
+    "semantic_hash": "07e58a02568380870f3c7e95a94bec9f"
+  },
+  "src/docs/joyUI_doc.png": {
+    "mtime": 1791544038.0,
+    "seen": 1793776670.1715338,
+    "ast_hash": "9bb414f3abf0ffe5c8f5dc3f548874fb",
+    "semantic_hash": "9bb414f3abf0ffe5c8f5dc3f548874fb"
+  },
+  "src/docs/just_bump_out_dimensions.png": {
+    "mtime": 1792728503.8325057,
+    "seen": 1793776670.1715372,
+    "ast_hash": "4966f4c698d06142540372b25f49d2cf",
+    "semantic_hash": "4966f4c698d06142540372b25f49d2cf"
+  },
+  "src/docs/robot_workflow.png": {
+    "mtime": 1793274069.924993,
+    "seen": 1793776670.1715405,
+    "ast_hash": "3997235b68f6b69f2b644b8ccbc60717",
+    "semantic_hash": "3997235b68f6b69f2b644b8ccbc60717"
+  },
+  "src/docs/robot_workflow.svg": {
+    "mtime": 1793274065.5309932,
+    "seen": 1793776670.1715448,
+    "ast_hash": "9aa3c6ffaed7bb2fd4ac7d66b47cb76c",
+    "semantic_hash": "9aa3c6ffaed7bb2fd4ac7d66b47cb76c"
+  },
+  "src/docs/sketch_layout_dimensions.png": {
+    "mtime": 1792718831.4400716,
+    "seen": 1793776670.1715484,
+    "ast_hash": "bc6d2b7aad174e8db37ed229e263b9e3",
+    "semantic_hash": "bc6d2b7aad174e8db37ed229e263b9e3"
+  },
+  "src/docs/suckin_vs_two_corners.png": {
+    "mtime": 1792887802.2551165,
+    "seen": 1793776670.171552,
+    "ast_hash": "9df2d8c011b8332ebd84395d05f5d7b6",
+    "semantic_hash": "9df2d8c011b8332ebd84395d05f5d7b6"
+  },
+  "src/outputs/stanley_sim.png": {
+    "mtime": 1789475572.0,
+    "seen": 1793776670.171555,
+    "ast_hash": "11ed98225e82697fe0a5c804ba9657cc",
+    "semantic_hash": "11ed98225e82697fe0a5c804ba9657cc"
+  }
+}
