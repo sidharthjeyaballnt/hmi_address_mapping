@@ -20,3 +20,8 @@ button_events*.csv
 press_events.csv
 *.jpeg
 *.jpg
+
+# ROS 2 colcon build output
+painting_seq_sid/build/
+painting_seq_sid/install/
+painting_seq_sid/log/

@@ -25,6 +25,7 @@ import time
 ESC = 0x1B
 FS = 0x1C
 CMD_READ = ord('R')
+CMD_WRITE = ord('W')
 RESP_ACK_DATA = ord('A')
 ACK = 0x06
 NAK = 0x15
@@ -138,6 +139,31 @@ def read_words(sock: socket.socket, address: int, count: int):
                             else "NAK from HMI (no error code)")
 
     raise MemLinkError(f"unrecognized response frame: {resp!r}")
+
+
+def write_words(sock: socket.socket, address: int, values):
+    if not (0 <= address <= 9999):
+        raise ValueError("address must be 0-9999 (Internal Device range)")
+    if not (1 <= len(values) <= 512):
+        raise ValueError("1-512 values allowed per write")
+
+    payload = bytes([ESC, CMD_WRITE]) + struct.pack('>H', address) + struct.pack('>H', len(values))
+    for v in values:
+        payload += struct.pack('>H', v & 0xFFFF)
+    sock.sendall(build_frame(b'B', payload))
+
+    marker, resp = handle_frame_until_read_response(sock)
+
+    if resp == bytes([ACK]):
+        return True
+
+    if resp[:1] == bytes([NAK]):
+        code = resp[1] if len(resp) > 1 else None
+        desc = ERROR_CODES.get(code, "unknown error")
+        raise MemLinkError(f"NAK from HMI on write: code {code:#04x} ({desc})" if code is not None
+                            else "NAK from HMI on write (no error code)")
+
+    raise MemLinkError(f"unrecognized write response: {resp!r}")
 
 
 def main():
