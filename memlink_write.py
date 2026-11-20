@@ -22,7 +22,7 @@ Examples:
     python3 memlink_write.py --host 192.168.1.100 --address 0 --bit 5 --value 0
 
     # Write 2 to each of addresses 9001, 9002, 9003 (contiguous range) in one request
-    python3 memlink_write.py --host 192.168.1.100 --address 9001 --value 2 --count 3
+    python3 memlink_write.py --host 192.168.1.100 --address 7510 --value 2 --count 1
 """
 import argparse
 import socket
